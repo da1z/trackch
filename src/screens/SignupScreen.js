@@ -5,8 +5,10 @@ import { Context as AuthContext } from '../context/AuthContext';
 import AuthForm from '../components/AuthForm';
 import NavLink from '../components/NavLink';
 
-const SignupScreen = ({ navigation }) => {
-  const { state, signup, clearErrorMessage } = useContext(AuthContext);
+const SignupScreen = () => {
+  const { state, signup, clearErrorMessage } = useContext(
+    AuthContext
+  );
 
   return (
     <View style={styles.container}>
