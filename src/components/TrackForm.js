@@ -11,7 +11,6 @@ const TrackForm = () => {
     changeName
   } = useContext(LocationContext);
   const [saveTrack] = useSaveTrack();
-  console.log(locations.length);
   return (
     <>
       <Spacer>
